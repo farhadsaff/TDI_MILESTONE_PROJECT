@@ -8,7 +8,6 @@ Created on Tue Jun  2 10:50:35 2020
 
 from flask import Flask, redirect, url_for, render_template, request, Markup
 from flask import session
-from alpha_vantage.timeseries import TimeSeries
 import simplejson as json
 import requests
 import pandas as pd
