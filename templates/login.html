@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Login Page{% endblock %}
+{% block content %}
+<form action="#" method="post">
+	<p>Stock Symbols (e.g. AMD, FB..)</p>
+	<p><input type="text" name="nm" /></p>
+	<input type="checkbox" name="Open">Opening price<br>
+	<input type="checkbox" name="High">The highest price<br>
+	<input type="checkbox" name="low">The lowest price<br>
+	<input type="checkbox" name="Closing">The closing price<br>
+	<p><input type="submit" value="submit"/></p>
+</form>
+{% endblock %}
